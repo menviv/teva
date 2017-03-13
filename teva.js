@@ -765,7 +765,7 @@ $( "#DiscoverAnswerQ1Ashdod" ).click(function() {
 });
 
 //ASHDOD wrong answer q1 back to q1
-$( "#ButtonQ2Ashdod" ).click(function() {
+$( "#BackToQ1Ashdod" ).click(function() {
   
   $( "#WrongAnswerQ1Ashdod" ).fadeOut( 500 );
   
