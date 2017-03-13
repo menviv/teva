@@ -518,12 +518,12 @@ $( "#DiscoverAnswerQ1Shoham" ).click(function() {
   
   if (ShohamRadio2 == "True") {
   
-  		$("#ShoamQ1").fadeOut( 300 );
+  		$("#ShohamQ1").fadeOut( 300 );
       
-      $("#RightAnswerQ1Shoam").fadeIn( 500 );
+      $("#RightAnswerQ1Shoham").fadeIn( 500 );
   
   } else {
-  	 $("#WrongAnswerQ1Shoam").fadeIn( 500 );
+  	 $("#WrongAnswerQ1Shoham").fadeIn( 500 );
   }
  
 });
@@ -531,9 +531,9 @@ $( "#DiscoverAnswerQ1Shoham" ).click(function() {
 //shoam wrong answer q1 back to q1
 $( "#BackToQ1Shoham" ).click(function() {
   
-  $( "#WrongAnswerQ1Shoam" ).fadeOut( 500 );
+  $( "#WrongAnswerQ1Shoham" ).fadeOut( 500 );
   
-  $( "#ShoamQ1" ).fadeIn( 500 );
+  $( "#ShohamQ1" ).fadeIn( 500 );
   
 });
 
@@ -542,15 +542,15 @@ $( "#BackToQ1Shoham" ).click(function() {
 //shoham link to second question
 $( "#ButtonQ2Shoham" ).click(function() {
  
- $( "#RightAnswerQ1Shoam" ).fadeOut( 500 )
+ $( "#RightAnswerQ1Shoham" ).fadeOut( 500 )
 
- $( "#ShoamQ2" ).fadeIn( 500 );
+ $( "#ShohamQ2" ).fadeIn( 500 );
  
 });
 
 
 
-//shoam RADIO BUTTON Q2
+//shoham RADIO BUTTON Q2
 $( "#ShohamRadio4" ).click(function() {
 
   localStorage.setItem("ShohamRadio4", "True");
@@ -594,12 +594,12 @@ $( "#DiscoverAnswerQ2Shoham" ).click(function() {
   
   if (ShohamRadio6 == "True") {
   
-  		$("#ShoamQ2").fadeOut("fast");
+  		$("#ShohamQ2").fadeOut("fast");
       
-      $("#RightAnswerQ2Shoam").fadeIn("slow");
+      $("#RightAnswerQ2Shoham").fadeIn("slow");
   
   } else {
-  	 $("#WrongAnswerQ2Shoam").fadeIn("slow");
+  	 $("#WrongAnswerQ2Shoham").fadeIn("slow");
   }
   
 });
@@ -607,9 +607,9 @@ $( "#DiscoverAnswerQ2Shoham" ).click(function() {
 //SHOHAM wrong answer q2 back to q2
 $( "#BackToQ2Shoham" ).click(function() {
   
-  $( "#WrongAnswerQ2Shoam" ).fadeOut( 500 );
+  $( "#WrongAnswerQ2Shoham" ).fadeOut( 500 );
   
-  $( "#RightAnswerQ2Shoam" ).fadeIn( 500 );
+  $( "#RightAnswerQ2Shoham" ).fadeIn( 500 );
   
 });
 
@@ -619,15 +619,12 @@ $( "#BackToQ2Shoham" ).click(function() {
 //SHOHAM link to picture
 $( "#ButtonEndShoham" ).click(function() {
   
-  $( "#RightAnswerQ2Shoam" ).fadeOut( 500 );
+  $( "#RightAnswerQ2Shoham" ).fadeOut( 500 );
   
   $( "#PictureShoham" ).fadeIn( 500 );
   
   $( "#LinkShoham" ).css('z-index', 0);
 
 });
-
-
-
 
 
