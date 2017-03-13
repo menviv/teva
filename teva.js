@@ -853,7 +853,7 @@ $( "#BackToQ2Ashdod" ).click(function() {
 //ASHDOD link to picture
 $( "#ButtonEndAshdod" ).click(function() {
   
-  $( "#ashdodq2" ).fadeOut( 500 );
+  $( "#RightAnswerQ2Ashdod" ).fadeOut( 500 );
   
   $( "#PictureAshdod" ).fadeIn( 500 );
   
