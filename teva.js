@@ -675,7 +675,7 @@ $( "#DiscoverQ1Rehovot" ).click(function() {
   
   if (Radio1Rehovot2 == "True") {
   
-  		$("#RehovotQ1").fadeOut( 300 );
+  		$("#rehovotq").fadeOut( 300 );
       
       $("#RightAnswerQ1Rehovot").fadeIn( 500 );
   
