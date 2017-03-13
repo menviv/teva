@@ -706,3 +706,159 @@ $( "#ButtonEndRehovot" ).click(function() {
   $( "#rehovotlink" ).css('z-index', 0);
 
 });
+
+// ASHDOD RADIO BUTTON Q1
+$( "#RadioAshdod1" ).click(function() {
+
+  localStorage.setItem("RadioAshdod1", "True");
+  
+  localStorage.setItem("RadioAshdod2", "False");
+  
+  localStorage.setItem("RadioAshdod3", "False");
+  
+});
+
+
+
+
+$( "#RadioAshdod2" ).click(function() {
+
+  localStorage.setItem("RadioAshdod1", "False");
+  
+  localStorage.setItem("RadioAshdod2", "True");
+  
+  localStorage.setItem("RadioAshdod3", "False");
+  
+});
+
+
+
+
+$( "#RadioAshdod3" ).click(function() {
+
+  localStorage.setItem("RadioAshdod1", "False");
+  
+  localStorage.setItem("RadioAshdod2", "False");
+  
+  localStorage.setItem("RadioAshdod3", "True");
+  
+});
+
+
+
+
+
+$( "#DiscoverAnswerQ1Ashdod" ).click(function() {
+
+  var RadioAshdod3 = localStorage.getItem("RadioAshdod3");
+  
+  if (RadioAshdod3 == "True") {
+  
+  		$("#ashdodq").fadeOut( 500 );
+      
+      $("#RightAnswerQ1Ashdod").fadeIn( 500 );
+  
+  } else {
+  	 $("#WrongAnswerQ1Ashdod").fadeIn( 500 );
+  }
+  
+});
+
+//ASHDOD wrong answer q1 back to q1
+$( "#ButtonQ2Ashdod" ).click(function() {
+  
+  $( "#WrongAnswerQ1Ashdod" ).fadeOut( 500 );
+  
+  $( "#ashdodq" ).fadeIn( 500 );
+  
+});
+
+
+
+
+
+//ashdod link to second question
+$( "#ButtonQ2Ashdod" ).click(function() {
+
+  $( "#RightAnswerQ1Ashdod").fadeOut( 500);
+  
+  $( "#ashdodq2" ).fadeIn( 500 );
+});
+
+
+
+//ASHDOD RADIO BUTTON Q2
+$( "#RadioAshdod4" ).click(function() {
+
+  localStorage.setItem("RadioAshdod4", "True");
+  
+  localStorage.setItem("RadioAshdod5", "False");
+  
+  localStorage.setItem("RadioAshdod6", "False");
+  
+});
+
+
+
+
+$( "#RadioAshdod5" ).click(function() {
+
+  localStorage.setItem("RadioAshdod4", "False");
+  
+  localStorage.setItem("RadioAshdod5", "True");
+  
+  localStorage.setItem("RadioAshdod6", "False");
+  
+});
+
+
+
+
+$( "#RadioAshdod6" ).click(function() {
+
+  localStorage.setItem("RadioAshdod4", "False");
+  
+  localStorage.setItem("RadioAshdod5", "False");
+  
+  localStorage.setItem("RadioAshdod6", "True");
+  
+});
+
+
+$( "#RadioAshdod5" ).click(function() {
+
+  var RadioAshdod5 = localStorage.getItem("RadioAshdod5");
+  
+  if (RadioAshdod5 == "True") {
+  
+  		$("#ashdodq2").fadeOut("fast");
+      
+      $("#RightAnswerQ2Ashdod").fadeIn( 300 );
+  
+  } else {
+  	 $("#WrongAnswerQ2Ashdod").fadeIn( 300 );
+  }
+  
+});
+
+//ASHDOD wrong answer q2 back to q2
+$( "#BackToQ2Ashdod" ).click(function() {
+  
+  $( "#WrongAnswerQ2Ashdod" ).fadeOut( 500 );
+  
+  $( "#ashdodq2" ).fadeIn( 500 );
+  
+});
+
+//ASHDOD link to picture
+$( "#ButtonEndAshdod" ).click(function() {
+  
+  $( "#ashdodq2" ).fadeOut( 500 );
+  
+  $( "#PictureAshdod" ).fadeIn( 500 );
+  
+  $( "#ashdodlink" ).css('z-index', 0);
+
+});
+
+
