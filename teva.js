@@ -472,39 +472,39 @@ $( "#LastButtonJE" ).click(function() {
 
 
 //shoham RADIO BUTTON Q1
-$( "#ShoamRadio1" ).click(function() {
+$( "#ShohamRadio1" ).click(function() {
 
-  localStorage.setItem("ShoamRadio1", "True");
+  localStorage.setItem("ShohamRadio1", "True");
   
-  localStorage.setItem("ShoamRadio2", "False");
+  localStorage.setItem("ShohamRadio2", "False");
   
-  localStorage.setItem("ShoamRadio3", "False");
-  
-});
-
-
-
-
-$( "#ShoamRadio2" ).click(function() {
-
-  localStorage.setItem("ShoamRadio1", "False");
-  
-  localStorage.setItem("ShoamRadio2", "True");
-  
-  localStorage.setItem("ShoamRadio3", "False");
+  localStorage.setItem("ShohamRadio3", "False");
   
 });
 
 
 
 
-$( "#ShoamRadio3" ).click(function() {
+$( "#ShohamRadio2" ).click(function() {
 
-  localStorage.setItem("ShoamRadio1", "False");
+  localStorage.setItem("ShohamRadio1", "False");
   
-  localStorage.setItem("ShoamRadio2", "False");
+  localStorage.setItem("ShohamRadio2", "True");
   
-  localStorage.setItem("ShoamRadio3", "True");
+  localStorage.setItem("ShohamRadio3", "False");
+  
+});
+
+
+
+
+$( "#ShohamRadio3" ).click(function() {
+
+  localStorage.setItem("ShohamRadio1", "False");
+  
+  localStorage.setItem("ShohamRadio2", "False");
+  
+  localStorage.setItem("ShohamRadio3", "True");
   
 });
 
@@ -514,9 +514,9 @@ $( "#ShoamRadio3" ).click(function() {
 
 $( "#DiscoverAnswerQ1Shoham" ).click(function() {
 
-  var ShoamRadio2 = localStorage.getItem("ShoamRadio2");
+  var ShohamRadio2 = localStorage.getItem("ShohamRadio2");
   
-  if (ShoamRadio2 == "True") {
+  if (ShohamRadio2 == "True") {
   
   		$("#ShoamQ1").fadeOut( 300 );
       
@@ -551,48 +551,48 @@ $( "#ButtonQ2Shoham" ).click(function() {
 
 
 //shoam RADIO BUTTON Q2
-$( "#ShoamRadio4" ).click(function() {
+$( "#ShohamRadio4" ).click(function() {
 
-  localStorage.setItem("ShoamRadio4", "True");
+  localStorage.setItem("ShohamRadio4", "True");
   
-  localStorage.setItem("ShoamRadio5", "False");
+  localStorage.setItem("ShohamRadio5", "False");
   
-  localStorage.setItem("ShoamRadio6", "False");
-  
-});
-
-
-
-
-$( "#ShoamRadio5" ).click(function() {
-
-  localStorage.setItem("ShoamRadio4", "False");
-  
-  localStorage.setItem("ShoamRadio5", "True");
-  
-  localStorage.setItem("ShoamRadio6", "False");
+  localStorage.setItem("ShohamRadio6", "False");
   
 });
 
 
 
 
-$( "#ShoamRadio6" ).click(function() {
+$( "#ShohamRadio5" ).click(function() {
 
-  localStorage.setItem("ShoamRadio4", "False");
+  localStorage.setItem("ShohamRadio4", "False");
   
-  localStorage.setItem("ShoamRadio5", "False");
+  localStorage.setItem("ShohamRadio5", "True");
   
-  localStorage.setItem("ShoamRadio6", "True");
+  localStorage.setItem("ShohamRadio6", "False");
+  
+});
+
+
+
+
+$( "#ShohamRadio6" ).click(function() {
+
+  localStorage.setItem("ShohamRadio4", "False");
+  
+  localStorage.setItem("ShohamRadio5", "False");
+  
+  localStorage.setItem("ShohamRadio6", "True");
   
 });
 
 
 $( "#DiscoverAnswerQ2Shoham" ).click(function() {
 
-  var ShoamRadio6 = localStorage.getItem("ShoamRadio6");
+  var ShohamRadio6 = localStorage.getItem("ShohamRadio6");
   
-  if (ShoamRadio6 == "True") {
+  if (ShohamRadio6 == "True") {
   
   		$("#ShoamQ2").fadeOut("fast");
       
@@ -626,6 +626,8 @@ $( "#ButtonEndShoham" ).click(function() {
   $( "#LinkShoham" ).css('z-index', 0);
 
 });
+
+
 
 
 
