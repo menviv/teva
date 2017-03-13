@@ -627,4 +627,82 @@ $( "#ButtonEndShoham" ).click(function() {
 
 });
 
+//Rehovot RADIO BUTTON Q1
+$( "#Radio1Rehovot1" ).click(function() {
 
+  localStorage.setItem("Radio1Rehovot1", "True");
+  
+  localStorage.setItem("Radio1Rehovot2", "False");
+  
+  localStorage.setItem("Radio1Rehovot3", "False");
+  
+});
+
+
+
+
+$( "#Radio1Rehovot2" ).click(function() {
+
+  localStorage.setItem("Radio1Rehovot1", "False");
+  
+  localStorage.setItem("Radio1Rehovot2", "True");
+  
+  localStorage.setItem("Radio1Rehovot3", "False");
+  
+});
+
+
+
+
+$( "#Radio1Rehovot3" ).click(function() {
+
+  localStorage.setItem("Radio1Rehovot1", "False");
+  
+  localStorage.setItem("Radio1Rehovot2", "False");
+  
+  localStorage.setItem("Radio1Rehovot3", "True");
+  
+});
+
+
+
+
+
+$( "#DiscoverQ1Rehovot" ).click(function() {
+
+  var Radio1Rehovot2 = localStorage.getItem("Radio1Rehovot2");
+  
+  if (Radio1Rehovot2 == "True") {
+  
+  		$("#RehovotQ1").fadeOut( 300 );
+      
+      $("#RightAnswerQ1Rehovot").fadeIn( 500 );
+  
+  } else {
+  	 $("#WrongAnswerQ1Rehovot").fadeIn( 500 );
+  }
+ 
+});
+
+//rehovot wrong answer q1 back to q1
+$( "#BackToQ1Rehovot" ).click(function() {
+  
+  $( "#WrongAnswerQ1Rehovot" ).fadeOut( 500 );
+  
+  $( "#RehovotQ1" ).fadeIn( 500 );
+  
+});
+
+
+
+
+//rehovot link to picture
+$( "#ButtonEndRehovot" ).click(function() {
+  
+  $( "#RightAnswerQ1Rehovot" ).fadeOut( 500 );
+  
+  $( "#PictureRehovot" ).fadeIn( 500 );
+  
+  $( "#rehovotlink" ).css('z-index', 0);
+
+});
