@@ -472,6 +472,7 @@ $( "#LastButtonJE" ).click(function() {
 
 
 //shoham RADIO BUTTON Q1
+
 $( "#ShohamRadio1" ).click(function() {
 
   localStorage.setItem("ShohamRadio1", "True");
@@ -540,7 +541,7 @@ $( "#BackToQ1Shoham" ).click(function() {
 
 
 //shoham link to second question
-$( "#ButtonQ2Shoham" ).click(function() {
+$( "#ButtonqQ2Shoham" ).click(function() {
  
  $( "#RightAnswerQ1Shoham" ).fadeOut( 500 )
 
@@ -617,7 +618,7 @@ $( "#BackToQ2Shoham" ).click(function() {
 
 
 //SHOHAM link to picture
-$( "#ButtonEndShoham" ).click(function() {
+$( "#ButtonqEndShoham" ).click(function() {
   
   $( "#RightAnswerQ2Shoham" ).fadeOut( 500 );
   
