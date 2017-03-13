@@ -1,5 +1,4 @@
-<script>
-///////////
+
  //green kfar-saba
 $( "#kafas" ).mouseover(function() {
   
@@ -629,7 +628,4 @@ $( "#ButtonEndShoham" ).click(function() {
 });
 
 
-
-
-</script>
 
