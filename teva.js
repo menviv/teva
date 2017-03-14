@@ -104,7 +104,7 @@ $( "#natanya" ).mouseout(function() {
 //natanya question
 $( "#linknatanya" ).click(function() {
   
-  $( "#natanyaq" ).fadeIn( 500 );
+  $( "#Q1Natanya" ).fadeIn( 500 );
 });
 
 //kfar saba question
