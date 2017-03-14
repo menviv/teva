@@ -863,3 +863,157 @@ $( "#ButtonEndAshdod" ).click(function() {
 });
 
 
+
+//NATANYN RADIO BUTTON Q1
+$( "#RadioNatanya1" ).click(function() {
+
+  localStorage.setItem("RadioNatanya1", "True");
+  
+  localStorage.setItem("RadioNatanya2", "False");
+  
+  localStorage.setItem("RadioNatanya3", "False");
+  
+});
+
+
+
+
+$( "#RadioNatanya2" ).click(function() {
+
+  localStorage.setItem("RadioNatanya1", "False");
+  
+  localStorage.setItem("RadioNatanya2", "True");
+  
+  localStorage.setItem("RadioNatanya3", "False");
+  
+});
+
+
+
+
+$( "#RadioNatanya3" ).click(function() {
+
+  localStorage.setItem("RadioNatanya1", "False");
+  
+  localStorage.setItem("RadioNatanya2", "False");
+  
+  localStorage.setItem("RadioNatanya3", "True");
+  
+});
+
+
+
+
+
+$( "#DiscoverQ1Natanya" ).click(function() {
+
+  var RadioNatanya1 = localStorage.getItem("RadioNatanya1");
+  
+  if (RadioNatanya1 == "True") {
+  
+  		$("#Q1Natanya").fadeOut( 500 );
+      
+      $("#RightAnswerQ1Natanya").fadeIn( 500 );
+  
+  } else {
+  	 $("#WrongAnswerQ1Natanya").fadeIn( 500 );
+  }
+  
+});
+
+//NATANYA wrong answer q1 back to q1
+$( "#ButtonForQ1" ).click(function() {
+  
+  $( "#WrongAnswerQ1Natanya" ).fadeOut( 500 );
+  
+  $( "#Q1Natanya" ).fadeIn( 500 );
+  
+});
+
+
+
+
+
+//NATANYA link to second question
+$( "#ButtonForQ2natanya" ).click(function() {
+
+  $( "#RightAnswerQ1Natanya").fadeOut( 500);
+  
+  $( "#Q2Natanya" ).fadeIn( 500 );
+});
+
+
+
+//NATANYA RADIO BUTTON Q2
+$( "#RadioNatanya4" ).click(function() {
+
+  localStorage.setItem("RadioNatanya4", "True");
+  
+  localStorage.setItem("RadioNatanya5", "False");
+  
+  localStorage.setItem("RadioNatanya6", "False");
+  
+});
+
+
+
+
+$( "#RadioNatanya5" ).click(function() {
+
+  localStorage.setItem("RadioNatanya4", "False");
+  
+  localStorage.setItem("RadioNatanya5", "True");
+  
+  localStorage.setItem("RadioNatanya6", "False");
+  
+});
+
+
+
+
+$( "#RadioNatanya6" ).click(function() {
+
+  localStorage.setItem("RadioNatanya4", "False");
+  
+  localStorage.setItem("RadioNatanya5", "False");
+  
+  localStorage.setItem("RadioNatanya5", "True");
+  
+});
+
+
+$( "#DiscoverQ2Natanya" ).click(function() {
+
+  var RadioNatanya5 = localStorage.getItem("RadioNatanya5");
+  
+  if (RadioNatanya5 == "True") {
+  
+  		$("#Q2Natanya").fadeOut("fast");
+      
+      $("#RightAnswerQ2Natanya").fadeIn( 300 );
+  
+  } else {
+  	 $("#WrongAnswerQ1Natanya").fadeIn( 300 );
+  }
+  
+});
+
+//NATANYA wrong answer q2 back to q2
+$( "#ButtonForQ2" ).click(function() {
+  
+  $( "#WrongAnswerQ1Natanya" ).fadeOut( 500 );
+  
+  $( "#Q2Natanya" ).fadeIn( 500 );
+  
+});
+
+//NATANYA link to picture
+$( "#LastButtonNatanya" ).click(function() {
+  
+  $( "#RightAnswerQ2Natanya" ).fadeOut( 500 );
+  
+  $( "#PictureNatanya" ).fadeIn( 500 );
+  
+  $( "#linknatanya" ).css('z-index', 0);
+
+});
