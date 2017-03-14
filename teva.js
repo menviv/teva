@@ -1332,7 +1332,159 @@ $( "#LastButtonKfar" ).click(function() {
 
 
 
+//p-tikva RADIO BUTTON Q1
+$( "#RadioPT1" ).click(function() {
 
+  localStorage.setItem("RadioPT1", "True");
+  
+  localStorage.setItem("RadioPT2", "False");
+  
+  localStorage.setItem("RadioPT3", "False");
+  
+});
+
+
+
+
+$( "#RadioPT2" ).click(function() {
+
+  localStorage.setItem("RadioPT1", "False");
+  
+  localStorage.setItem("RadioPT2", "True");
+  
+  localStorage.setItem("RadioPT3", "False");
+  
+});
+
+
+
+
+$( "#RadioPT3" ).click(function() {
+
+  localStorage.setItem("RadioPT1", "False");
+  
+  localStorage.setItem("RadioPT2", "False");
+  
+  localStorage.setItem("RadioPT3", "True");
+  
+});
+
+
+
+
+
+$( "#DiscoverQ1PT" ).click(function() {
+
+  var RadioPT3 = localStorage.getItem("RadioPT3");
+  
+  if (RadioPT3 == "True") {
+  
+  		$("#ptquestion").fadeOut( 500 );
+      
+      $("#RightAnswerQ1PT").fadeIn( 500 );
+  
+  } else {
+  	 $("#WrongAnswerQ1PT").fadeIn( 500 );
+  }
+  
+});
+
+//p-tikva wrong answer q1 back to q1
+$( "#BackToQ1PT" ).click(function() {
+  
+  $( "#WrongAnswerQ1PT" ).fadeOut( 500 );
+  
+  $( "#ptquestion" ).fadeIn( 500 );
+  
+});
+
+
+
+
+
+//p-tikva link to second question
+$( "#ButtonForQ2PT" ).click(function() {
+
+  $( "#RightAnswerQ1PT").fadeOut( 500);
+  
+  $( "#Q2PT" ).fadeIn( 500 );
+});
+
+
+
+//p-tikva RADIO BUTTON Q2
+$( "#RadioPT4" ).click(function() {
+
+  localStorage.setItem("RadioPT4", "True");
+  
+  localStorage.setItem("RadioPT5", "False");
+  
+  localStorage.setItem("RadioPT6", "False");
+  
+});
+
+
+
+
+$( "#RadioPT5" ).click(function() {
+
+  localStorage.setItem("RadioPT4", "False");
+  
+  localStorage.setItem("RadioPT5", "True");
+  
+  localStorage.setItem("RadioPT6", "False");
+  
+});
+
+
+
+
+$( "#RadioPT6" ).click(function() {
+
+  localStorage.setItem("RadioPT4", "False");
+  
+  localStorage.setItem("RadioPT5", "False");
+  
+  localStorage.setItem("RadioPT6", "True");
+  
+});
+
+
+$( "#DiscoverQ2PT" ).click(function() {
+
+  var RadioPT5 = localStorage.getItem("RadioPT5");
+  
+  if (RadioPT5 == "True") {
+  
+  		$("#Q2PT").fadeOut("fast");
+      
+      $("#RightAnswerQ2PT").fadeIn( 300 );
+  
+  } else {
+  	 $("#WrongAnswerQ2Kfar").fadeIn( 300 );
+  }
+  
+});
+
+//P-TIKVA wrong answer q2 back to q2
+$( "#BackToQ2KFAR" ).click(function() {
+  
+  $( "#WrongAnswerQ2PT" ).fadeOut( 500 );
+  
+  $( "#Q2PT" ).fadeIn( 500 );
+  
+});
+
+//P-TIKVA link to picture
+$( "#LastButtonPT" ).click(function() {
+  
+  $( "#RightAnswerQ2PT" ).fadeOut( 500 );
+  
+  $( "#PicturePT" ).fadeIn( 500 );
+  
+  $( "#ptlink" ).css('z-index', 0);
+
+});
 
 
 
