@@ -1175,3 +1175,166 @@ $( "#LastButtonShmona" ).click(function() {
 });
 
 
+
+//KFAR-SABA RADIO BUTTON Q1
+$( "#RadioKfar1" ).click(function() {
+
+  localStorage.setItem("RadioKfar1", "True");
+  
+  localStorage.setItem("RadioKfar2", "False");
+  
+  localStorage.setItem("RadioKfar3", "False");
+  
+});
+
+
+
+
+$( "#RadioKfar2" ).click(function() {
+
+  localStorage.setItem("RadioKfar1", "False");
+  
+  localStorage.setItem("RadioKfar2", "True");
+  
+  localStorage.setItem("RadioKfar3", "False");
+  
+});
+
+
+
+
+$( "#RadioKfar3" ).click(function() {
+
+  localStorage.setItem("RadioKfar1", "False");
+  
+  localStorage.setItem("RadioKfar2", "False");
+  
+  localStorage.setItem("RadioKfar3", "True");
+  
+});
+
+
+
+
+
+$( "#DiscoverQ1Kfar" ).click(function() {
+
+  var RadioKfar1 = localStorage.getItem("RadioKfar1");
+  
+  if (RadioKfar1 == "True") {
+  
+  		$("#kfarq").fadeOut( 500 );
+      
+      $("#RightAnswerQ1Kfar").fadeIn( 500 );
+  
+  } else {
+  	 $("#WrongAnswerQ1Kfar").fadeIn( 500 );
+  }
+  
+});
+
+//KFAR SABA wrong answer q1 back to q1
+$( "#BackToQ1KFAR" ).click(function() {
+  
+  $( "#WrongAnswerQ1Kfar" ).fadeOut( 500 );
+  
+  $( "#kfarq" ).fadeIn( 500 );
+  
+});
+
+
+
+
+
+//KFAR-SABA link to second question
+$( "#ButtonForQ2Kfar" ).click(function() {
+
+  $( "#RightAnswerQ1Kfar").fadeOut( 500);
+  
+  $( "#KfarsabaQ2" ).fadeIn( 500 );
+});
+
+
+
+//KFAR SABA RADIO BUTTON Q2
+$( "#RadioKfar4" ).click(function() {
+
+  localStorage.setItem("RadioKfar4", "True");
+  
+  localStorage.setItem("RadioKfar5", "False");
+  
+  localStorage.setItem("RadioKfar6", "False");
+  
+});
+
+
+
+
+$( "#RadioKfar5" ).click(function() {
+
+  localStorage.setItem("RadioKfar4", "False");
+  
+  localStorage.setItem("RadioKfar5", "True");
+  
+  localStorage.setItem("RadioKfar6", "False");
+  
+});
+
+
+
+
+$( "#RadioKfar6" ).click(function() {
+
+  localStorage.setItem("RadioKfar4", "False");
+  
+  localStorage.setItem("RadioKfar5", "False");
+  
+  localStorage.setItem("RadioKfar6", "True");
+  
+});
+
+
+$( "#DiscoverQ2Kfar" ).click(function() {
+
+  var RadioKfar6 = localStorage.getItem("RadioKfar6");
+  
+  if (RadioKfar6 == "True") {
+  
+  		$("#KfarsabaQ2").fadeOut("fast");
+      
+      $("#RightAnswerQ2Kfar").fadeIn( 300 );
+  
+  } else {
+  	 $("#WrongAnswerQ2Kfar").fadeIn( 300 );
+  }
+  
+});
+
+//KFAR SABA wrong answer q2 back to q2
+$( "#BackToQ2KFAR" ).click(function() {
+  
+  $( "#WrongAnswerQ2Kfar" ).fadeOut( 500 );
+  
+  $( "#KfarsabaQ2" ).fadeIn( 500 );
+  
+});
+
+//KFAR SABA link to picture
+$( "#LastButtonKfar" ).click(function() {
+  
+  $( "#RightAnswerQ2Kfar" ).fadeOut( 500 );
+  
+  $( "#PictureKfarSaba" ).fadeIn( 500 );
+  
+  $( "#kfarlink" ).css('z-index', 0);
+
+});
+
+
+
+
+
+
+
+
+
