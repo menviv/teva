@@ -281,12 +281,12 @@ $( "#ButtonForAnswerBS" ).click(function() {
   
   if (BsAn4 == "True") {
   
-  		$("#BsQ2").fadeOut("fast");
+  		$("#BsQ2").fadeOut( 500 );
       
-      $("#SecondQRightBS").fadeIn( 300 );
+      $("#SecondQRightBS").fadeIn( 500 );
   
   } else {
-  	 $("#WrongAnswerBS2").fadeIn( 300 );
+  	 $("#WrongAnswerBS2").fadeIn( 500 );
   }
   
 });
@@ -364,7 +364,7 @@ $( "#AnswerQ1" ).click(function() {
   
   if (RadioButton3 == "True") {
   
-  		$("#jerusalemQ1").fadeOut( 300 );
+  		$("#jerusalemQ1").fadeOut( 500 );
       
       $("#AnswerRightJE").fadeIn( 500 );
   
@@ -437,12 +437,12 @@ $( "#AnswerQ2JE" ).click(function() {
   
   if (RadioButton4 == "True") {
   
-  		$("#JerusalemQ2").fadeOut("fast");
+  		$("#JerusalemQ2").fadeOut( 500 );
       
-      $("#AnswerRightJEQ2").fadeIn("slow");
+      $("#AnswerRightJEQ2").fadeIn( 500 );
   
   } else {
-  	 $("#WrongQ2").fadeIn("slow");
+  	 $("#WrongQ2").fadeIn( 500 );
   }
   
 });
@@ -519,7 +519,7 @@ $( "#DiscoverAnswerQ1Shoham" ).click(function() {
   
   if (ShohamRadio2 == "True") {
   
-  		$("#ShohamQ1").fadeOut( 300 );
+  		$("#ShohamQ1").fadeOut( 500 );
       
       $("#RightAnswerQ1Shoham").fadeIn( 500 );
   
@@ -595,12 +595,12 @@ $( "#DiscoverAnswerQ2Shoham" ).click(function() {
   
   if (ShohamRadio6 == "True") {
   
-  		$("#ShohamQ2").fadeOut("fast");
+  		$("#ShohamQ2").fadeOut( 500 );
       
-      $("#RightAnswerQ2Shoham").fadeIn("slow");
+      $("#RightAnswerQ2Shoham").fadeIn( 500 );
   
   } else {
-  	 $("#WrongAnswerQ2Shoham").fadeIn("slow");
+  	 $("#WrongAnswerQ2Shoham").fadeIn( 500 );
   }
   
 });
@@ -675,7 +675,7 @@ $( "#DiscoverQ1Rehovot" ).click(function() {
   
   if (Radio1Rehovot2 == "True") {
   
-  		$("#rehovotq").fadeOut( 300 );
+  		$("#rehovotq").fadeOut( 500 );
       
       $("#RightAnswerQ1Rehovot").fadeIn( 500 );
   
@@ -832,12 +832,12 @@ $( "#RadioAshdod5" ).click(function() {
   
   if (RadioAshdod5 == "True") {
   
-  		$("#ashdodq2").fadeOut("fast");
+  		$("#ashdodq2").fadeOut( 500 );
       
-      $("#RightAnswerQ2Ashdod").fadeIn( 300 );
+      $("#RightAnswerQ2Ashdod").fadeIn( 500 );
   
   } else {
-  	 $("#WrongAnswerQ2Ashdod").fadeIn( 300 );
+  	 $("#WrongAnswerQ2Ashdod").fadeIn( 500 );
   }
   
 });
@@ -988,12 +988,12 @@ $( "#DiscoverQ2Natanya" ).click(function() {
   
   if (RadioNatanya5 == "True") {
   
-  		$("#Q2Natanya").fadeOut("fast");
+  		$("#Q2Natanya").fadeOut( 500 );
       
-      $("#RightAnswerQ2Natanya").fadeIn( 300 );
+      $("#RightAnswerQ2Natanya").fadeIn( 500 );
   
   } else {
-  	 $("#WrongAnswerQ1Natanya").fadeIn( 300 );
+  	 $("#WrongAnswerQ1Natanya").fadeIn( 500 );
   }
   
 });
@@ -1144,12 +1144,12 @@ $( "#DiscoverQ2Shmona" ).click(function() {
   
   if (RadioShmona6 == "True") {
   
-  		$("#Q2shmona").fadeOut("fast");
+  		$("#Q2shmona").fadeOut( 500 );
       
-      $("#RightAnswerQ2Shmona").fadeIn( 300 );
+      $("#RightAnswerQ2Shmona").fadeIn( 500 );
   
   } else {
-  	 $("#WrongAnswerQ2Shmona").fadeIn( 300 );
+  	 $("#WrongAnswerQ2Shmona").fadeIn( 500 );
   }
   
 });
@@ -1300,12 +1300,12 @@ $( "#DiscoverQ2Kfar" ).click(function() {
   
   if (RadioKfar6 == "True") {
   
-  		$("#KfarsabaQ2").fadeOut("fast");
+  		$("#KfarsabaQ2").fadeOut( 500 );
       
-      $("#RightAnswerQ2Kfar").fadeIn( 300 );
+      $("#RightAnswerQ2Kfar").fadeIn( 500 );
   
   } else {
-  	 $("#WrongAnswerQ2Kfar").fadeIn( 300 );
+  	 $("#WrongAnswerQ2Kfar").fadeIn( 500 );
   }
   
 });
@@ -1456,12 +1456,12 @@ $( "#DiscoverQ2PT" ).click(function() {
   
   if (RadioPT5 == "True") {
   
-  		$("#Q2PT").fadeOut("fast");
+  		$("#Q2PT").fadeOut( 500 );
       
-      $("#RightAnswerQ2PT").fadeIn( 300 );
+      $("#RightAnswerQ2PT").fadeIn( 500 );
   
   } else {
-  	 $("#WrongAnswerQ2Kfar").fadeIn( 300 );
+  	 $("#WrongAnswerQ2Kfar").fadeIn( 500 );
   }
   
 });
