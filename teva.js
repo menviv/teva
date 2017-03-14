@@ -1017,3 +1017,161 @@ $( "#LastButtonNatanya" ).click(function() {
   $( "#linknatanya" ).css('z-index', 0);
 
 });
+
+
+
+//k-shmona RADIO BUTTON Q1
+$( "#RadioShmona1" ).click(function() {
+
+  localStorage.setItem("RadioShmona1", "True");
+  
+  localStorage.setItem("RadioShmona2", "False");
+  
+  localStorage.setItem("RadioShmona3", "False");
+  
+});
+
+
+
+
+$( "#RadioShmona2" ).click(function() {
+
+  localStorage.setItem("RadioShmona1", "False");
+  
+  localStorage.setItem("RadioShmona2", "True");
+  
+  localStorage.setItem("RadioShmona3", "False");
+  
+});
+
+
+
+
+$( "#RadioShmona3" ).click(function() {
+
+  localStorage.setItem("RadioShmona1", "False");
+  
+  localStorage.setItem("RadioShmona2", "False");
+  
+  localStorage.setItem("RadioShmona3", "True");
+  
+});
+
+
+
+
+
+$( "#DiscoverQ1Shmona" ).click(function() {
+
+  var RadioShmona1 = localStorage.getItem("RadioShmona1");
+  
+  if (RadioShmona1 == "True") {
+  
+  		$("#Q1shmona").fadeOut( 500 );
+      
+      $("#RightAnswerQ1Shmona").fadeIn( 500 );
+  
+  } else {
+  	 $("#WrongAnswerQ1Shmona").fadeIn( 500 );
+  }
+  
+});
+
+//K-SHMONA wrong answer q1 back to q1
+$( "#ButtonForQ1Shmona" ).click(function() {
+  
+  $( "#WrongAnswerQ1Shmona" ).fadeOut( 500 );
+  
+  $( "#Q1shmona" ).fadeIn( 500 );
+  
+});
+
+
+
+
+
+//K-SHMONA link to second question
+$( "#ButtonForQq2Shmona" ).click(function() {
+
+  $( "#RightAnswerQ1Shmona").fadeOut( 500);
+  
+  $( "#Q2shmona" ).fadeIn( 500 );
+});
+
+
+
+//Shmona RADIO BUTTON Q2
+$( "#RadioShmona4" ).click(function() {
+
+  localStorage.setItem("RadioShmona4", "True");
+  
+  localStorage.setItem("RadioShmona5", "False");
+  
+  localStorage.setItem("RadioShmona6", "False");
+  
+});
+
+
+
+
+$( "#RadioShmona5" ).click(function() {
+
+  localStorage.setItem("RadioShmona4", "False");
+  
+  localStorage.setItem("RadioShmona5", "True");
+  
+  localStorage.setItem("RadioShmona6", "False");
+  
+});
+
+
+
+
+$( "#RadioShmona6" ).click(function() {
+
+  localStorage.setItem("RadioShmona4", "False");
+  
+  localStorage.setItem("RadioShmona5", "False");
+  
+  localStorage.setItem("RadioShmona6", "True");
+  
+});
+
+
+$( "#DiscoverQ2Shmona" ).click(function() {
+
+  var RadioShmona6 = localStorage.getItem("RadioShmona6");
+  
+  if (RadioShmona6 == "True") {
+  
+  		$("#Q2shmona").fadeOut("fast");
+      
+      $("#RightAnswerQ2Shmona").fadeIn( 300 );
+  
+  } else {
+  	 $("#WrongAnswerQ2Shmona").fadeIn( 300 );
+  }
+  
+});
+
+//SHMONA wrong answer q2 back to q2
+$( "#ButtonForQ2Shmona" ).click(function() {
+  
+  $( "#WrongAnswerQ2Shmona" ).fadeOut( 500 );
+  
+  $( "#Q2shmona" ).fadeIn( 500 );
+  
+});
+
+//SHMONA link to picture
+$( "#LastButtonShmona" ).click(function() {
+  
+  $( "#RightAnswerQ2Shmona" ).fadeOut( 500 );
+  
+  $( "#PictureShmona" ).fadeIn( 500 );
+  
+  $( "#kslink" ).css('z-index', 0);
+
+});
+
+
