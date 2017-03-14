@@ -1498,7 +1498,7 @@ $( document ).ready(function() {
  
    var BS_done = localStorage.getItem("BS");
  
-   if (BS_done = "") {  
+   if (BS_done = "Done") {  
     
        $( "#PictureBS" ).fadeIn( 500 );
   
