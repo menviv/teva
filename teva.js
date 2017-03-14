@@ -153,7 +153,7 @@ $( "#LinkShoham" ).click(function() {
 //k-shmona question
 $( "#kslink" ).click(function() {
   
-  $( "#shmonalink" ).fadeIn( 500 );
+  $( "#Q1shmona" ).fadeIn( 500 );
 });
 
 
