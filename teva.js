@@ -308,6 +308,8 @@ $( "#Lastbs" ).click(function() {
   $( "#PictureBS" ).fadeIn( 500 );
   
   $( "#bslink" ).css('z-index', 0);
+ 
+   localStorage.setItem("BS", "Done");
 
 });
 
@@ -1485,6 +1487,29 @@ $( "#LastButtonPT" ).click(function() {
   $( "#ptlink" ).css('z-index', 0);
 
 });
+
+
+
+
+
+// On page ready
+
+$( document ).ready(function() {
+ 
+   var BS_done = localStorage.getItem("BS");
+ 
+   if (BS_done = "") {  
+    
+       $( "#PictureBS" ).fadeIn( 500 );
+  
+       $( "#bslink" ).css('z-index', 0);
+    
+   } 
+  
+
+});
+
+
 
 
 
