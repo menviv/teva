@@ -203,8 +203,8 @@ $( "#ButtonQ1BS" ).click(function() {
   var BsAn2 = localStorage.getItem("BsAn2");
   
   if (BsAn2 == "True") {
-  
-  		$("#bsq").hide();
+   
+   $("#bsq").addClass(.hidden);  
       
       $("#rightbs").fadeIn( 500 );
 
