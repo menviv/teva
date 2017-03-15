@@ -839,7 +839,7 @@ $( "#RadioAshdod6" ).click(function() {
 });
 
 
-$( "#RadioAshdod5" ).click(function() {
+$( "#DiscoverAnswerQ2Ashdod" ).click(function() {
 
   var RadioAshdod5 = localStorage.getItem("RadioAshdod5");
   
