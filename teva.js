@@ -1512,7 +1512,7 @@ $( document ).ready(function() {
  
    var BS_done = localStorage.getItem("BS");
  
-   if (BS_done = "Done") {  
+   if (BS_done == "Done") {  
     
        $( "#PictureBS" ).fadeIn( 500 );
   
@@ -1523,7 +1523,7 @@ $( document ).ready(function() {
  
    var JERUSALEM_done = localStorage.getItem("JERUSALEM");
  
-   if (JERUSALEM_done = "Done") {  
+   if (JERUSALEM_done == "Done") {  
     
        $( "#PictureJE" ).fadeIn( 500 );
   
@@ -1534,7 +1534,7 @@ $( document ).ready(function() {
  
    var SHOHAM_done = localStorage.getItem("SHOHAM");
  
-   if (SHOHAM_done = "Done") {  
+   if (SHOHAM_done == "Done") {  
     
        $( "#PictureShoham" ).fadeIn( 500 );
   
@@ -1545,7 +1545,7 @@ $( document ).ready(function() {
  
    var REHOVOT_done = localStorage.getItem("REHOVOT");
  
-   if (REHOVOT_done = "Done") {  
+   if (REHOVOT_done == "Done") {  
     
        $( "#PictureRehovot" ).fadeIn( 500 );
   
@@ -1556,7 +1556,7 @@ $( document ).ready(function() {
  
    var ASHDOD_done = localStorage.getItem("ASHDOD");
  
-   if (ASHDOD_done = "Done") {  
+   if (ASHDOD_done == "Done") {  
     
        $( "#PictureAshdod" ).fadeIn( 500 );
   
@@ -1567,7 +1567,7 @@ $( document ).ready(function() {
  
    var NATANYA_done = localStorage.getItem("NATANYA");
  
-   if (NATANYA_done = "Done") {  
+   if (NATANYA_done == "Done") {  
     
        $( "#PictureNatanya" ).fadeIn( 500 );
   
@@ -1578,7 +1578,7 @@ $( document ).ready(function() {
  
    var SHMONA_done = localStorage.getItem("SHMONA");
  
-   if (SHMONA_done = "Done") {  
+   if (SHMONA_done == "Done") {  
     
        $( "#PictureShmona" ).fadeIn( 500 );
   
@@ -1589,7 +1589,7 @@ $( document ).ready(function() {
  
    var KFARSABA_done = localStorage.getItem("KFARSABA");
  
-   if (KFARSABA_done = "Done") {  
+   if (KFARSABA_done == "Done") {  
     
        $( "#PictureKfarSaba" ).fadeIn( 500 );
   
@@ -1600,7 +1600,7 @@ $( document ).ready(function() {
  
    var PT_done = localStorage.getItem("PT");
  
-   if (PT_done = "Done") {  
+   if (PT_done == "Done") {  
     
        $( "#PicturePT" ).fadeIn( 500 );
   
@@ -1608,6 +1608,7 @@ $( document ).ready(function() {
     
    } 
   
+     if (PT_done == "Done" && KFARSABA_done == "Done" && SHMONA_done == "Done" && NATANYA_done == "Done" && ASHDOD_done == "Done" && REHOVOT_done == "Done" && SHOHAM_done == "Done" && JERUSALEM_done == "Done" && BS_done == "Done" {  
     
-    
+       $( "#ENDOFGAME" ).fadeIn( 500 );    
    });
