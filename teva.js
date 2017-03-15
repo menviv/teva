@@ -204,10 +204,10 @@ $( "#ButtonQ1BS" ).click(function() {
   
   if (BsAn2 == "True") {
   
-  		$("FADEOUT").fadeOut(3000);
+  		$("#bsq").fadeOut ( 500, function();
       
       $("#rightbs").fadeIn( 500 );
-      $("#RightRadioButton").addClass("right:input[type='radio']:checked:after");
+
   
   } else {
   	 $("#wrongbeer").fadeIn( 500 );
