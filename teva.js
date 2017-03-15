@@ -294,6 +294,7 @@ $( "#ButtonForAnswerBS" ).click(function() {
 });
 
 //beer sheva wrong answer q2 back to q2
+
 $( "#bsWrongq2" ).click(function() {
   
   $( "#WrongAnswerBS2" ).fadeOut( 500 );
@@ -303,6 +304,7 @@ $( "#bsWrongq2" ).click(function() {
 });
 
 //beer sheva link to picture
+
 $( "#Lastbs" ).click(function() {
   
   $( "#SecondQRightBS" ).fadeOut( 500 );
@@ -314,9 +316,6 @@ $( "#Lastbs" ).click(function() {
    localStorage.setItem("BS", "Done");
 
 });
-
-
-
 
 
 
@@ -373,15 +372,16 @@ $( "#AnswerQ1" ).click(function() {
       $("#AnswerRightJE").fadeIn( 500 );
   
   } else {
-  	 $("#WrongQ1").fadeIn( 500 );
+  	 $("#WrongAnswerQ1Jerusalem").fadeIn( 500 );
   }
   
 });
 
 //jerusalem wrong answer q1 back to q1
+
 $( "#buttonwrongje" ).click(function() {
   
-  $( "#WrongQ1" ).fadeOut( 500 );
+  $( "#WrongAnswerQ1Jerusalem" ).fadeOut( 500 );
   
   $( "#jerusalemQ1" ).fadeIn( 500 );
   
@@ -390,14 +390,19 @@ $( "#buttonwrongje" ).click(function() {
 
 
 //jerusalem link to second question
+
 $( "#NextQuesJE" ).click(function() {
+ 
   $( "#AnswerRightJE" ).fadeOut( 500 )
+ 
   $( "#JerusalemQ2" ).fadeIn( 500 );
+ 
 });
 
 
 
 //JERUSALEM RADIO BUTTON Q2
+
 $( "#RadioButton4" ).click(function() {
 
   localStorage.setItem("RadioButton4", "True");
@@ -446,7 +451,8 @@ $( "#AnswerQ2JE" ).click(function() {
       $("#AnswerRightJEQ2").fadeIn( 500 );
   
   } else {
-  	 $("#WrongQ2").fadeIn( 500 );
+   
+  	 $("#WrongAnswerQ2Jerusalem").fadeIn( 500 );
   }
   
 });
@@ -454,7 +460,7 @@ $( "#AnswerQ2JE" ).click(function() {
 //jerusalem wrong answer q2 back to q2
 $( "#buttonwrongje2" ).click(function() {
   
-  $( "#WrongQ2" ).fadeOut( 500 );
+  $( "#WrongAnswerQ2Jerusalem" ).fadeOut( 500 );
   
   $( "#jerusalemQ2" ).fadeIn( 500 );
   
