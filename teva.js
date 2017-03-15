@@ -773,10 +773,8 @@ $( "#DiscoverAnswerQ1Ashdod" ).click(function() {
   
   if (RadioAshdod3 == "True") {
   
-  	//	$("div#AshdodQ1new").fadeOut( 500 );
+  		$("#AshdodQ1new).fadeOut( 500 );
    
-     document.getElementById("AshdodQ1new").display = "none";
-
     $("#RightAnswerQ1Ashdod").fadeIn( 500 );
   
   } else {
