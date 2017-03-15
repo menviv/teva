@@ -1518,11 +1518,8 @@ $( document ).ready(function() {
   
        $( "#bslink" ).css('z-index', 0);
     
-   } 
-  
-});
-
-$( document ).ready(function() {
+   }
+ 
  
    var JERUSALEM_done = localStorage.getItem("JERUSALEM");
  
@@ -1532,11 +1529,8 @@ $( document ).ready(function() {
   
        $( "#jerusalemlink" ).css('z-index', 0);
     
-   } 
-  
-});
+   }
 
-$( document ).ready(function() {
  
    var SHOHAM_done = localStorage.getItem("SHOHAM");
  
@@ -1546,12 +1540,8 @@ $( document ).ready(function() {
   
        $( "#LinkShoham" ).css('z-index', 0);
     
-   } 
+   }
   
-});
-
-
-$( document ).ready(function() {
  
    var REHOVOT_done = localStorage.getItem("REHOVOT");
  
@@ -1563,10 +1553,6 @@ $( document ).ready(function() {
     
    } 
   
-});
-
-
-$( document ).ready(function() {
  
    var ASHDOD_done = localStorage.getItem("ASHDOD");
  
@@ -1578,10 +1564,6 @@ $( document ).ready(function() {
     
    } 
   
-});
-
-
-$( document ).ready(function() {
  
    var NATANYA_done = localStorage.getItem("NATANYA");
  
@@ -1593,9 +1575,6 @@ $( document ).ready(function() {
     
    } 
   
-});
-
-$( document ).ready(function() {
  
    var SHMONA_done = localStorage.getItem("SHMONA");
  
@@ -1607,11 +1586,6 @@ $( document ).ready(function() {
     
    } 
   
-});
-
-
-
-$( document ).ready(function() {
  
    var KFARSABA_done = localStorage.getItem("KFARSABA");
  
@@ -1623,10 +1597,6 @@ $( document ).ready(function() {
     
    } 
   
-});
-
-
-$( document ).ready(function() {
  
    var PT_done = localStorage.getItem("PT");
  
@@ -1638,6 +1608,10 @@ $( document ).ready(function() {
     
    } 
   
+  
+   if (PT_done = "Done") && (KFARSABA_done = "Done") && (SHMONA_done = "Done") && (NATANYA_done = "Done") && (ASHDOD_done = "Done") && (REHOVOT_done = "Done") && (SHOHAM_done = "Done") && (JERUSALEM_done = "Done") && (BS_done = "Done") {  
+    
+       $( "#ENDOFGAME" ).fadeIn( 500 ); 
 });
 
 
