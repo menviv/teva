@@ -204,7 +204,7 @@ $( "#ButtonQ1BS" ).click(function() {
   
   if (BsAn2 == "True") {
   
-  		$("#bsq").fadeOut( 500 );
+  		$(".FADEOUT").fadeOut( 500 );
       
       $("#rightbs").fadeIn( 500 );
   
@@ -281,7 +281,7 @@ $( "#ButtonForAnswerBS" ).click(function() {
   
   if (BsAn4 == "True") {
   
-  		$("#BsQ2").fadeOut( 500 );
+  		$("FADEOUT").fadeOut( 500 );
       
       $("#SecondQRightBS").fadeIn( 500 );
   
