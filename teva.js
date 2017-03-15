@@ -1485,13 +1485,14 @@ $( "#DiscoverQ2PT" ).click(function() {
       $("#RightAnswerQ2PT").fadeIn( 500 );
   
   } else {
-  	 $("#WrongAnswerQ2Kfar").fadeIn( 500 );
+  	 $("#WrongAnswerQ2PT").fadeIn( 500 );
   }
   
 });
 
 //P-TIKVA wrong answer q2 back to q2
-$( "#BackToQ2KFAR" ).click(function() {
+
+$( "#BackToQ2PT" ).click(function() {
   
   $( "#WrongAnswerQ2PT" ).fadeOut( 500 );
   
