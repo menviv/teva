@@ -1008,7 +1008,7 @@ $( "#DiscoverQ2Natanya" ).click(function() {
       $("#RightAnswerQ2Natanya").fadeIn( 500 );
   
   } else {
-  	 $("#WrongAnswerQ1Natanya").fadeIn( 500 );
+  	 $("#WrongAnswerQ2Natanya").fadeIn( 500 );
   }
   
 });
@@ -1016,7 +1016,7 @@ $( "#DiscoverQ2Natanya" ).click(function() {
 //NATANYA wrong answer q2 back to q2
 $( "#ButtonForQ2" ).click(function() {
   
-  $( "#WrongAnswerQ1Natanya" ).fadeOut( 500 );
+  $( "#WrongAnswerQ2Natanya" ).fadeOut( 500 );
   
   $( "#Q2Natanya" ).fadeIn( 500 );
   
