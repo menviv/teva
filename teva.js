@@ -619,11 +619,12 @@ $( "#DiscoverAnswerQ2Shoham" ).click(function() {
 });
 
 //SHOHAM wrong answer q2 back to q2
+
 $( "#BackToQ2Shoham" ).click(function() {
   
   $( "#WrongAnswerQ2Shoham" ).fadeOut( 500 );
   
-  $( "#RightAnswerQ2Shoham" ).fadeIn( 500 );
+  $( "#ShohamQ2" ).fadeIn( 500 );
   
 });
 
