@@ -469,6 +469,9 @@ $( "#LastButtonJE" ).click(function() {
   $( "#PictureJE" ).fadeIn( 500 );
   
   $( "#jerusalemlink" ).css('z-index', 0);
+ 
+  localStorage.setItem("JERUSALEM", "Done");
+
 
 });
 
@@ -627,6 +630,8 @@ $( "#ButtonqEndShoham" ).click(function() {
   $( "#PictureShoham" ).fadeIn( 500 );
   
   $( "#LinkShoham" ).css('z-index', 0);
+ 
+   localStorage.setItem("SHOHAM", "Done");
 
 });
 
@@ -707,7 +712,9 @@ $( "#ButtonEndRehovot" ).click(function() {
   $( "#PictureRehovot" ).fadeIn( 500 );
   
   $( "#rehovotlink" ).css('z-index', 0);
-
+ 
+   localStorage.setItem("REHOVOT", "Done");
+ 
 });
 
 // ASHDOD RADIO BUTTON Q1
@@ -861,12 +868,14 @@ $( "#ButtonEndAshdod" ).click(function() {
   $( "#PictureAshdod" ).fadeIn( 500 );
   
   $( "#ashdodlink" ).css('z-index', 0);
-
+ 
+  localStorage.setItem("ASHDOD", "Done");
+ 
 });
 
 
 
-//NATANYN RADIO BUTTON Q1
+//NATANYA RADIO BUTTON Q1
 $( "#RadioNatanya1" ).click(function() {
 
   localStorage.setItem("RadioNatanya1", "True");
@@ -1017,7 +1026,8 @@ $( "#LastButtonNatanya" ).click(function() {
   $( "#PictureNatanya" ).fadeIn( 500 );
   
   $( "#linknatanya" ).css('z-index', 0);
-
+ 
+   localStorage.setItem("NATANYA", "Done");
 });
 
 
@@ -1173,7 +1183,8 @@ $( "#LastButtonShmona" ).click(function() {
   $( "#PictureShmona" ).fadeIn( 500 );
   
   $( "#kslink" ).css('z-index', 0);
-
+ 
+   localStorage.setItem("SHMONA", "Done");
 });
 
 
@@ -1329,7 +1340,8 @@ $( "#LastButtonKfar" ).click(function() {
   $( "#PictureKfarSaba" ).fadeIn( 500 );
   
   $( "#kfarlink" ).css('z-index', 0);
-
+ 
+   localStorage.setItem("KFARSABA", "Done");
 });
 
 
@@ -1485,7 +1497,9 @@ $( "#LastButtonPT" ).click(function() {
   $( "#PicturePT" ).fadeIn( 500 );
   
   $( "#ptlink" ).css('z-index', 0);
-
+ 
+   localStorage.setItem("PT", "Done");
+ 
 });
 
 
@@ -1506,7 +1520,124 @@ $( document ).ready(function() {
     
    } 
   
+});
 
+$( document ).ready(function() {
+ 
+   var JERUSALEM_done = localStorage.getItem("JERUSALEM");
+ 
+   if (JERUSALEM_done = "Done") {  
+    
+       $( "#PictureJE" ).fadeIn( 500 );
+  
+       $( "#jerusalemlink" ).css('z-index', 0);
+    
+   } 
+  
+});
+
+$( document ).ready(function() {
+ 
+   var SHOHAM_done = localStorage.getItem("SHOHAM");
+ 
+   if (SHOHAM_done = "Done") {  
+    
+       $( "#PictureShoham" ).fadeIn( 500 );
+  
+       $( "#LinkShoham" ).css('z-index', 0);
+    
+   } 
+  
+});
+
+
+$( document ).ready(function() {
+ 
+   var REHOVOT_done = localStorage.getItem("REHOVOT");
+ 
+   if (REHOVOT_done = "Done") {  
+    
+       $( "#PictureRehovot" ).fadeIn( 500 );
+  
+       $( "#rehovotlink" ).css('z-index', 0);
+    
+   } 
+  
+});
+
+
+$( document ).ready(function() {
+ 
+   var ASHDOD_done = localStorage.getItem("ASHDOD");
+ 
+   if (ASHDOD_done = "Done") {  
+    
+       $( "#PictureAshdod" ).fadeIn( 500 );
+  
+       $( "#ashdodlink" ).css('z-index', 0);
+    
+   } 
+  
+});
+
+
+$( document ).ready(function() {
+ 
+   var NATANYA_done = localStorage.getItem("NATANYA");
+ 
+   if (NATANYA_done = "Done") {  
+    
+       $( "#PictureNatanya" ).fadeIn( 500 );
+  
+       $( "#linknatanya" ).css('z-index', 0);
+    
+   } 
+  
+});
+
+$( document ).ready(function() {
+ 
+   var SHMONA_done = localStorage.getItem("SHMONA");
+ 
+   if (SHMONA_done = "Done") {  
+    
+       $( "#PictureShmona" ).fadeIn( 500 );
+  
+       $( "#kslink" ).css('z-index', 0);
+    
+   } 
+  
+});
+
+
+
+$( document ).ready(function() {
+ 
+   var KFARSABA_done = localStorage.getItem("KFARSABA");
+ 
+   if (KFARSABA_done = "Done") {  
+    
+       $( "#PictureKfarSaba" ).fadeIn( 500 );
+  
+       $( "#kfarlink" ).css('z-index', 0);
+    
+   } 
+  
+});
+
+
+$( document ).ready(function() {
+ 
+   var PT_done = localStorage.getItem("PT");
+ 
+   if (PT_done = "Done") {  
+    
+       $( "#PicturePT" ).fadeIn( 500 );
+  
+       $( "#ptlink" ).css('z-index', 0);
+    
+   } 
+  
 });
 
 
