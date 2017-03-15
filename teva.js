@@ -998,7 +998,7 @@ $( "#RadioNatanya6" ).click(function() {
   
   localStorage.setItem("RadioNatanya5", "False");
   
-  localStorage.setItem("RadioNatanya5", "True");
+  localStorage.setItem("RadioNatanya6", "True");
   
 });
 
