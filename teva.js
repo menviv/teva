@@ -773,7 +773,7 @@ $( "#DiscoverAnswerQ1Ashdod" ).click(function() {
   
   if (RadioAshdod3 == "True") {
   
-  		$("#AshdodQ1new).fadeOut( 500 );
+  		$("#AshdodQ1new").fadeOut( 500 );
    
     $("#RightAnswerQ1Ashdod").fadeIn( 500 );
   
