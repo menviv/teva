@@ -765,9 +765,11 @@ $( "#DiscoverAnswerQ1Ashdod" ).click(function() {
   
   if (RadioAshdod3 == "True") {
   
-  		$("div#AshdodQ1new").fadeOut( 500 );
-      
-      $("#RightAnswerQ1Ashdod").fadeIn( 500 );
+  	//	$("div#AshdodQ1new").fadeOut( 500 );
+   
+     document.getElementById("AshdodQ1new").display = "none";
+
+    $("#RightAnswerQ1Ashdod").fadeIn( 500 );
   
   } else {
   	 $("#WrongAnswerQ1Ashdod").fadeIn( 500 );
@@ -776,9 +778,9 @@ $( "#DiscoverAnswerQ1Ashdod" ).click(function() {
 });
 
 //ASHDOD wrong answer q1 back to q1
-$( "#BackToQ1Ashdod" ).click(function() {
+  $("#BackToQ1Ashdod").click(function() {
   
-  $( "#WrongAnswerQ1Ashdod" ).fadeOut( 500 );
+  $( "#WrongAnswerQ1Ashdod").fadeOut( 500 );
   
   $( "#AshdodQ1new" ).fadeIn( 500 );
   
