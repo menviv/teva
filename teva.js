@@ -204,14 +204,13 @@ $( "#ButtonQ1BS" ).click(function() {
   
   if (BsAn2 == "True") {
    
-   $("#bsq").addClass("hidden");  
+   $("#bsq").fadeOut( 500 ); 
       
       $("#rightbs").fadeIn( 500 );
-   
-       $("#RightRadioButton").addClass("rightblue");  
   
   } else {
-  	 $("#wrongbeer").fadeIn( 500 );
+      $("#bsq").fadeOut( 500 );  
+   $("#wrongbeer").fadeIn( 500 );
   }
   
 });
