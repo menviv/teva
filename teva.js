@@ -287,7 +287,8 @@ $( "#ButtonForAnswerBS" ).click(function() {
       $("#SecondQRightBS").fadeIn( 500 );
   
   } else {
-  	 $("#WrongAnswerBS2").fadeIn( 500 );
+     		$("#BsQ2").fadeOut( 500 );  
+   $("#WrongAnswerBS2").fadeIn( 500 );
   }
   
 });
@@ -371,6 +372,9 @@ $( "#AnswerQ1" ).click(function() {
       $("#AnswerRightJE").fadeIn( 500 );
   
   } else {
+   
+     		$("#jerusalemQ1").fadeOut( 500 );
+   
   	 $("#WrongAnswerQ1Jerusalem").fadeIn( 500 );
   }
   
@@ -450,6 +454,8 @@ $( "#AnswerQ2JE" ).click(function() {
       $("#AnswerRightJEQ2").fadeIn( 500 );
   
   } else {
+   
+     		$("#JerusalemQ2").fadeOut( 500 );   
    
   	 $("#WrongAnswerQ2Jerusalem").fadeIn( 500 );
   }
@@ -536,7 +542,10 @@ $( "#DiscoverAnswerQ1Shoham" ).click(function() {
       $("#RightAnswerQ1Shoham").fadeIn( 500 );
   
   } else {
-  	 $("#WrongAnswerQ1Shoham").fadeIn( 500 );
+   
+     		$("#ShohamQ1").fadeOut( 500 );  	
+   
+   $("#WrongAnswerQ1Shoham").fadeIn( 500 );
   }
  
 });
@@ -612,6 +621,9 @@ $( "#DiscoverAnswerQ2Shoham" ).click(function() {
       $("#RightAnswerQ2Shoham").fadeIn( 500 );
   
   } else {
+   
+  		$("#ShohamQ2").fadeOut( 500 );
+   
   	 $("#WrongAnswerQ2Shoham").fadeIn( 500 );
   }
   
@@ -695,6 +707,9 @@ $( "#DiscoverQ1Rehovot" ).click(function() {
       $("#RightAnswerQ1Rehovot").fadeIn( 500 );
   
   } else {
+   
+     		$("#rehovotq").fadeOut( 500 );   
+   
   	 $("#WrongAnswerQ1Rehovot").fadeIn( 500 );
   }
  
@@ -777,6 +792,9 @@ $( "#DiscoverAnswerQ1Ashdod" ).click(function() {
     $("#RightAnswerQ1Ashdod").fadeIn( 500 );
   
   } else {
+   
+   		$("#AshdodQ1new").fadeOut( 500 ); 
+   
   	 $("#WrongAnswerQ1Ashdod").fadeIn( 500 );
   }
   
@@ -854,6 +872,9 @@ $( "#DiscoverAnswerQ2Ashdod" ).click(function() {
       $("#RightAnswerQ2Ashdod").fadeIn( 500 );
   
   } else {
+   
+     		$("#ashdodq2").fadeOut( 500 );   
+   
   	 $("#WrongAnswerQ2Ashdod").fadeIn( 500 );
   }
   
@@ -935,6 +956,9 @@ $( "#DiscoverQ1Natanya" ).click(function() {
       $("#RightAnswerQ1Natanya").fadeIn( 500 );
   
   } else {
+   
+     		$("#Q1Natanya").fadeOut( 500 ); 
+   
   	 $("#WrongAnswerQ1Natanya").fadeIn( 500 );
   }
   
@@ -1012,6 +1036,9 @@ $( "#DiscoverQ2Natanya" ).click(function() {
       $("#RightAnswerQ2Natanya").fadeIn( 500 );
   
   } else {
+   
+     		$("#Q2Natanya").fadeOut( 500 );
+   
   	 $("#WrongAnswerQ2Natanya").fadeIn( 500 );
   }
   
@@ -1092,6 +1119,9 @@ $( "#DiscoverQ1Shmona" ).click(function() {
       $("#RightAnswerQ1Shmona").fadeIn( 500 );
   
   } else {
+   
+     		$("#Q1shmona").fadeOut( 500 );  
+   
   	 $("#WrongAnswerQ1Shmona").fadeIn( 500 );
   }
   
@@ -1169,6 +1199,9 @@ $( "#DiscoverQ2Shmona" ).click(function() {
       $("#RightAnswerQ2Shmona").fadeIn( 500 );
   
   } else {
+   
+     		$("#Q2shmona").fadeOut( 500 );
+   
   	 $("#WrongAnswerQ2Shmona").fadeIn( 500 );
   }
   
@@ -1249,6 +1282,9 @@ $( "#DiscoverQ1Kfar" ).click(function() {
       $("#RightAnswerQ1Kfar").fadeIn( 500 );
   
   } else {
+   
+     		$("#kfarq").fadeOut( 500 );
+   
   	 $("#WrongAnswerQ1Kfar").fadeIn( 500 );
   }
   
@@ -1326,6 +1362,9 @@ $( "#DiscoverQ2Kfar" ).click(function() {
       $("#RightAnswerQ2Kfar").fadeIn( 500 );
   
   } else {
+   
+     		$("#KfarsabaQ2").fadeOut( 500 );
+   
   	 $("#WrongAnswerQ2Kfar").fadeIn( 500 );
   }
   
@@ -1406,6 +1445,9 @@ $( "#DiscoverQ1PT" ).click(function() {
       $("#RightAnswerQ1PT").fadeIn( 500 );
   
   } else {
+   
+     		$("#ptquestion").fadeOut( 500 );
+   
   	 $("#WrongAnswerQ1PT").fadeIn( 500 );
   }
   
@@ -1483,6 +1525,9 @@ $( "#DiscoverQ2PT" ).click(function() {
       $("#RightAnswerQ2PT").fadeIn( 500 );
   
   } else {
+   
+     		$("#Q2PT").fadeOut( 500 );
+   
   	 $("#WrongAnswerQ2PT").fadeIn( 500 );
   }
   
@@ -1510,9 +1555,6 @@ $( "#LastButtonPT" ).click(function() {
    localStorage.setItem("PT", "Done");
  
 });
-
-
-
 
 
 // On page ready
