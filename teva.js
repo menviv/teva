@@ -764,7 +764,7 @@ $( "#DiscoverAnswerQ1Ashdod" ).click(function() {
   
   if (RadioAshdod3 == "True") {
   
-  		$("#AshdodQ1").fadeOut( 500 );
+  		$("#AshdodQ1new").fadeOut( 500 );
       
       $("#RightAnswerQ1Ashdod").fadeIn( 500 );
   
@@ -779,7 +779,7 @@ $( "#BackToQ1Ashdod" ).click(function() {
   
   $( "#WrongAnswerQ1Ashdod" ).fadeOut( 500 );
   
-  $( "#AshdodQ1" ).fadeIn( 500 );
+  $( "#AshdodQ1new" ).fadeIn( 500 );
   
 });
 
