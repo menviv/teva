@@ -207,7 +207,8 @@ $( "#ButtonQ1BS" ).click(function() {
    $("#bsq").addClass("hidden");  
       
       $("#rightbs").fadeIn( 500 );
-
+   
+       $("#RightRadioButton").addClass("rightblue");  
   
   } else {
   	 $("#wrongbeer").fadeIn( 500 );
