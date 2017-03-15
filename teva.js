@@ -128,7 +128,7 @@ $( "#rehovotlink" ).click(function() {
 //ashdod question
 $( "#ashdodlink" ).click(function() {
   
-  $( "#AshdodQ1" ).fadeIn( 500 );
+  $( "#AshdodQ1new" ).fadeIn( 500 );
 });
 
 //beer sheva question
