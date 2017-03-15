@@ -204,7 +204,7 @@ $( "#ButtonQ1BS" ).click(function() {
   
   if (BsAn2 == "True") {
    
-   $("#bsq").addClass(.hidden);  
+   $("#bsq").addClass("hidden");  
       
       $("#rightbs").fadeIn( 500 );
 
