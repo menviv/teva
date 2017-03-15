@@ -283,7 +283,7 @@ $( "#ButtonForAnswerBS" ).click(function() {
   
   if (BsAn4 == "True") {
   
-  		$("#BsQ2).fadeOut( 500 );
+  		$("#BsQ2").fadeOut( 500 );
       
       $("#SecondQRightBS").fadeIn( 500 );
   
