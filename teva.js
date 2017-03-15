@@ -1608,12 +1608,6 @@ $( document ).ready(function() {
     
    } 
   
- 
-
-  
-   if (PT_done = "Done" && KFARSABA_done = "Done" && SHMONA_done = "Done" && NATANYA_done = "Done" && ASHDOD_done = "Done" && REHOVOT_done = "Done" && SHOHAM_done = "Done" && JERUSALEM_done = "Done" && BS_done = "Done" {  
-    
-       $( "#ENDOFGAME" ).fadeIn( 500 );
     
     
    });
