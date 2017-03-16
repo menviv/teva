@@ -467,7 +467,7 @@ $( "#buttonwrongje2" ).click(function() {
   
   $( "#WrongAnswerQ2Jerusalem" ).fadeOut( 500 );
   
-  $( "#jerusalemQ2" ).fadeIn( 500 );
+  $( "#JerusalemQ2" ).fadeIn( 500 );
   
 });
 
