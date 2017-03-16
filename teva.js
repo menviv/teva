@@ -720,7 +720,7 @@ $( "#BackToQ1Rehovot" ).click(function() {
   
   $( "#WrongAnswerQ1Rehovot" ).fadeOut( 500 );
   
-  $( "#RehovotQ1" ).fadeIn( 500 );
+  $( "#rehovotq" ).fadeIn( 500 );
   
 });
 
