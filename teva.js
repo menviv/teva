@@ -1535,7 +1535,7 @@ $( "#DiscoverQ2PT" ).click(function() {
   
   if (RadioPT4 == "False") {
   
-  		$("#RadioPT4").css(".wrongred");
+  		$("#RadioPT4").css("color: #fa3349");
   
   }
   
