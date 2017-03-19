@@ -1531,6 +1531,14 @@ $( "#DiscoverQ2PT" ).click(function() {
   	 $("#WrongAnswerQ2PT").fadeIn( 500 );
   }
   
+  var RadioPT4 = localStorage.getItem("RadioPT4");
+  
+  if (RadioPT4 == "False") {
+  
+  		$("#RadioPT4").css(".wrongred");
+  
+  }
+  
 });
 
 //P-TIKVA wrong answer q2 back to q2
