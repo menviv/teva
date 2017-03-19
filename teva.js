@@ -1535,10 +1535,7 @@ $( "#DiscoverQ2PT" ).click(function() {
   
   if (RadioPT4 == "False") {
   
-  		$("#RadioPT4").css("color: #fa3349");
-  
-  }
-  
+  		$("#RadioPT4").css({'color':'#fa3349'});      
 });
 
 //P-TIKVA wrong answer q2 back to q2
