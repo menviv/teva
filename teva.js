@@ -208,9 +208,18 @@ $( "#ButtonQ1BS" ).click(function() {
       
       $("#rightbs").fadeIn( 500 );
   
-  } else {
+  } 
+   
+     var BsAn1 = localStorage.getItem("BsAn1");
+  
+  if (BsAn1 == "False") {
+   
       $("#bsq").fadeOut( 500 );  
+      
    $("#wrongbeer").fadeIn( 500 );
+   
+   $("#BsAn1").css('color', 'red');
+  
   }
   
 });
