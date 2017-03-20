@@ -208,18 +208,12 @@ $( "#ButtonQ1BS" ).click(function() {
       
       $("#rightbs").fadeIn( 500 );
   
-  } 
-   
-     var BsAn1 = localStorage.getItem("BsAn1");
-  
-  if (BsAn1 == "False") {
-   
-      $("#bsq").fadeOut( 500 );  
+  } else {
       
-   $("#wrongbeer").fadeIn( 500 );
+   $("#bsq").fadeOut( 500 );
    
-   $("#BsAn1").css('color', 'red');
-  
+   $("#wrongbeer").fadeIn( 500 );
+     
   }
   
 });
@@ -297,6 +291,7 @@ $( "#ButtonForAnswerBS" ).click(function() {
   
   } else {
      		$("#BsQ2").fadeOut( 500 );  
+   
    $("#WrongAnswerBS2").fadeIn( 500 );
   }
   
